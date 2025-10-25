@@ -17,7 +17,7 @@ In this project, I utilized SQL for data querying, Python for data manipulation 
 - power bi
 
 ## Data Used
-<a href="https://github.com/SnehalDeepa/Airlines_Analysis/blob/main/Airline%20Dataset%20Updated%20-%20v2%20update.csv"<Dataset</a>
+<a href="https://github.com/mohitparashar310/Airlines_Analysis/blob/main/Airline%20Dataset%20Updated%20-%20v2%20update.csv"<Dataset</a>
 
 # SQL Schema
 
