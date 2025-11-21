@@ -36,21 +36,21 @@ GROUP BY Gender;
 ### 2)TOP 5 NATIONALITIES AMONG PASSENGERS
 
 ```sql
-SELECT TOP 5 
+SELECT 
     Nationality, 
     COUNT(*) AS Passenger_Count
 FROM airline_data
 GROUP BY Nationality
-ORDER BY Passenger_Count DESC;
+ORDER BY Passenger_Count DESC LIMIT 5;
 ```
 
 ### 3)AVERAGE AGE OF PASSENGER BY NATIONALITY
 
 ```sql
-SELECT TOP 10 Nationality, AVG(Age) AS Average_Age
+SELECT Nationality, AVG(Age) AS Average_Age
 FROM airline_data
 GROUP BY Nationality
-ORDER BY Average_Age DESC;
+ORDER BY Average_Age DESC LIMIT 10;
 ```
 
 ### 4)MOST FREQUENTED AIRPORTS BY PASSENGERS
@@ -192,23 +192,23 @@ FROM airline_data;
 ### 15)TOP NATIONALITIES AMONG PASSENGERS
 
 ```sql
-SELECT TOP 5 
+SELECT  
     Nationality, 
     COUNT(*) AS Passenger_Count
 FROM airline_data
 GROUP BY Nationality
-ORDER BY Passenger_Count DESC;
+ORDER BY Passenger_Count DESC LIMIT 5;
 ```
 
 ### 16)TOP 5 AIRPORTS BY PASSENGER VOLUME
 
 ```sql
-SELECT TOP 5
+SELECT 
     Airport_Name, 
     COUNT(*) AS Passenger_Count
 FROM airline_data
 GROUP BY Airport_Name
-ORDER BY Passenger_Count DESC;
+ORDER BY Passenger_Count DESC LIMIT 5;
 ```
 
 # Data visualisation
